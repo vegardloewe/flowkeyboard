@@ -27,23 +27,22 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Clean Air Unit</Subtitle>
             <h1>
-              All your money,
+              Breath air,
               <br />
-              one account
+              not contamination
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              We're building a protective zone with clean air supply. Show your interest!
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <HeaderButton>I'm interested</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              Your email will NOT be used for marketing purposes.{" "}
+              <FormSubtitleLink to="/"></FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>

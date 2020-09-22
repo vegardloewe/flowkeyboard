@@ -4,34 +4,33 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="features">
+  <Section id="benefits">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <Subtitle>Benefits</Subtitle>
+      <SectionTitle>Protective Clean Air Zone</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>No pollen</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Clean Air Unit creates a protective zone with a pollen count of 0 - 0,1.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Completely pure air</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            State-of-the-art technique removing any airborne contamination.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Good sleep</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            Sleep plays a vital role in good health and well-being throughout your life.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>3 levels of purification</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            Innovative use of carbon filter, HEPA-filter and UV-sterilisation.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
