@@ -98,6 +98,5 @@ const StyledImageConcept = styled(Img)`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 300px;
-    display: none;
   }
 `

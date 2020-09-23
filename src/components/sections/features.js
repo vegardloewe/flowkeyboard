@@ -28,19 +28,9 @@ const Features = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>3 levels of purification</FeatureTitle>
+          <FeatureTitle>Levels of purification</FeatureTitle>
           <FeatureText>
             Innovative use of carbon filter, HEPA-filter and UV-sterilisation.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
-          <FeatureText>
-            High interest and rewards for hitting your goals.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>

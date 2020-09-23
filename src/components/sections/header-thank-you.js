@@ -37,17 +37,11 @@ const Header = () => {
             <h2>
               We're building a protective zone with clean air supply. Show your interest!
             </h2>
-            <form name="interest" method="POST" data-netlify="true" action="thank-you">
-                  <p>
-                    <label><input type="email" name="email" placeholder="Your email" class="input" /></label><button type="submit" class="send">I'm interested</button>
-                  </p>
-            </form>
-            <div class="subtitle">
-            <FormSubtitle>
+            <h2>Thank you for your interest!</h2>
+            <FormSubtitle class="subtitle">
               Your email will NOT be used for marketing purposes.{" "}
               <FormSubtitleLink to="/"></FormSubtitleLink>
             </FormSubtitle>
-            </div>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -82,7 +76,7 @@ const HeaderTextGroup = styled.div`
       margin-top: 300px;
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   > div {
@@ -131,7 +125,7 @@ const HeaderForm = styled.form`
 `
 
 const FormSubtitle = styled.span`
-   ${props => props.theme.font_size.xxsmall};
+  ${props => props.theme.font_size.xxsmall}
 `
 
 const FormSubtitleLink = styled(Link)`
@@ -213,7 +207,7 @@ const StyledImage = styled(Img)`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 300px;
-    margin-top: -810px;
+    margin-top: -700px;
     transform: scale(0.8);
   }
 `

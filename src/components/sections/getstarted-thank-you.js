@@ -7,13 +7,7 @@ const GetStarted = () => (
   <Section id="interested">
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Show your interest</GetStartedTitle>
-      <form name="interest" method="POST" data-netlify="true" action="thanks#interested">
-            <p>
-              <label><input type="email" name="email" placeholder="Your email" class="input" /></label><button type="submit" class="send">I'm interested</button>
-            </p>
-      </form>
-      <Subtitle>No commitment required.</Subtitle>
+      <GetStartedTitle>Thank you for your interest!</GetStartedTitle>
     </GetStartedContainer>
   </StyledSection>
   </Section>
@@ -35,7 +29,7 @@ const GetStartedContainer = styled(Container)`
   @media (max-width: ${props => props.theme.screen.md}) {
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
-    width: 90%;
+    width: 100%;
   }
 `
 

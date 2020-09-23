@@ -15,7 +15,7 @@ import {
   ActionsContainer,
 } from "./style"
 
-const NAV_ITEMS = ["Benefits", "Concept", "White Paper", ""]
+const NAV_ITEMS = ["Benefits", "Concept", "", ""]
 
 export default class Navigation extends Component {
   state = {
@@ -95,8 +95,10 @@ export default class Navigation extends Component {
           </Mobile>
 
           <Mobile hide>{this.getNavList({})}</Mobile>
-          <ActionsContainer>
+          <ActionsContainer href="#interested">
+            <AnchorLink href="#interested">
             <button>I'm interested</button>
+            </AnchorLink>
           </ActionsContainer>
         </StyledContainer>
         <Mobile>
