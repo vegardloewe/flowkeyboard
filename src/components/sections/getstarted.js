@@ -6,8 +6,8 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Help us build a contamination free world</GetStartedTitle>
-      <TryItButton>I'm interested</TryItButton>
+      <GetStartedTitle>Show your interest</GetStartedTitle>
+      <TryItButtonGetStarted>I'm interested</TryItButtonGetStarted>
       <Subtitle>No commitment required.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
@@ -33,7 +33,7 @@ const GetStartedTitle = styled.h3`
   text-align: center;
 `
 
-const TryItButton = styled.button`
+const TryItButtonGetStarted = styled.button`
   font-weight: 500;
   font-size: 14px;
   color: white;

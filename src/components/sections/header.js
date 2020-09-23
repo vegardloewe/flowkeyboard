@@ -36,10 +36,12 @@ const Header = () => {
             <h2>
               We're building a protective zone with clean air supply. Show your interest!
             </h2>
+            <form name="interest" netlify>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>I'm interested</HeaderButton>
             </HeaderForm>
+            </form>
             <FormSubtitle>
               Your email will NOT be used for marketing purposes.{" "}
               <FormSubtitleLink to="/"></FormSubtitleLink>
