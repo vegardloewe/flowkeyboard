@@ -63,7 +63,7 @@ const SEO = ({ description, lang, meta, title, image }) => {
         },
         {
             name: 'og:image',
-            content: image,
+            content: sit.siteMetadata.image,
         }
       ].concat(meta)}
     />
