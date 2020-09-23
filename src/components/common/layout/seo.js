@@ -63,7 +63,7 @@ const SEO = ({ description, lang, meta, title, image }) => {
         },
         {
             property: 'og:image',
-            content: 'https://ibb.co/d5NH0sw',
+            content: 'https://i.ibb.co/QKWxF73/hero-02.png',
         }
       ].concat(meta)}
     />
