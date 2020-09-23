@@ -9,6 +9,7 @@ const GetStarted = () => (
     <GetStartedContainer>
       <GetStartedTitle>Show your interest</GetStartedTitle>
       <form name="interest" method="POST" data-netlify="true" action="thanks#interested">
+        <input type="hidden" name="interest" value="interest" />
             <p>
               <label><input type="email" name="email" placeholder="Your email" class="input" /></label><button type="submit" class="send">I'm interested</button>
             </p>

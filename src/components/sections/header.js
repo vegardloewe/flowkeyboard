@@ -38,6 +38,7 @@ const Header = () => {
               We're building a protective zone with clean air supply. Show your interest!
             </h2>
             <form name="interest" method="POST" data-netlify="true" action="thank-you">
+                <input type="hidden" name="interest" value="interest" />
                   <p>
                     <label><input type="email" name="email" placeholder="Your email" class="input" /></label><button type="submit" class="send">I'm interested</button>
                   </p>
