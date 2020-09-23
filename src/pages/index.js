@@ -12,7 +12,7 @@ import Concept from "../components/sections/concept"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Clean Air Units - Breath air, not contamination"/>
+    <SEO title="Clean Air Units - Breath air, not contamination" image="https://ibb.co/d5NH0sw"/>
     <Navigation />
     <Header />
     <Features />
