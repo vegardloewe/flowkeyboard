@@ -7,7 +7,7 @@ module.exports = {
     title: `Clean Air Units`,
     description: `An innovative product that creates a protective zone without any particles ...`,
     author: `Clean Air Units`,
-    image: `https://ibb.co/d5NH0sw`,
+    image: `/hero.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
