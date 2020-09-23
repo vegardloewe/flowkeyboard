@@ -62,7 +62,7 @@ const SEO = ({ description, lang, meta, title, image }) => {
           content: metaDescription,
         },
         {
-            name: 'og:image',
+            property: 'og:image',
             content: 'https://ibb.co/d5NH0sw',
         }
       ].concat(meta)}
