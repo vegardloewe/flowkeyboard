@@ -23,9 +23,9 @@ const theme = {
   },
 
   color: {
-    primary: "#071435",
+    primary: "#131A22",
     secondary: "#098c8c",
-    accent: "#cca86e",
+    accent: "#25D482",
     background: {
       white: "#ffffff",
       light: "#f8f8f8",

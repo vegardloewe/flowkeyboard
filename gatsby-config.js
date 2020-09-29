@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Clean Air Units`,
+    title: `Keyboard`,
     description: `An innovative product that creates a protective zone without any particles ...`,
     author: `Clean Air Units`,
     image: `https://ibb.co/d5NH0sw`,

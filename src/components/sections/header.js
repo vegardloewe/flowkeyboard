@@ -9,7 +9,7 @@ import "./form.css"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
+      file(sourceInstanceName: { eq: "product" }, name: { eq: "Keyboard" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -28,14 +28,14 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Clean Air Unit</Subtitle>
+            <Subtitle>Multi-purpose keyboard</Subtitle>
             <h1>
-              Breath air,
+              Unlock all
               <br />
-              not contamination
+              creative dimensions
             </h1>
             <h2>
-              We're building a protective zone with clean air supply. Show your interest!
+              Unlock an universe of micro tonality with a single keyboard. Show your interest!
             </h2>
             <form name="interest" method="POST" data-netlify="true" action="thank-you">
                 <input type="hidden" name="interest" value="interest" />
@@ -63,7 +63,7 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
+  background-color: #F5F6F7;
   padding: 160px 0 80px 0;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
