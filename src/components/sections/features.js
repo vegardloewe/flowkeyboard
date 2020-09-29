@@ -7,30 +7,30 @@ const Features = () => (
   <Section id="benefits">
     <StyledContainer>
       <Subtitle>Benefits</Subtitle>
-      <SectionTitle>Protective Clean Air Zone</SectionTitle>
+      <SectionTitle>Opens a new universe of sounds</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>No pollen</FeatureTitle>
+          <FeatureTitle>No workarounds</FeatureTitle>
           <FeatureText>
-            Clean Air Unit creates a protective zone with a pollen count of 0 - 0,1.
+            Utilizing backlit keys, the key pattern will fit any tuning system. Seamlessly switch between any number of notes per octave. No more stickers with note names or playing two pianos simultaneously.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Completely pure air</FeatureTitle>
+          <FeatureTitle>Tuning possibilities</FeatureTitle>
           <FeatureText>
-            State-of-the-art technique removing any airborne contamination.
+            Each key can be tuned individually for complete musical freedom. Flow helps you easily wrap your mind around most tuning systems with well laid out editing tools. Save, load, and share your tuning presets.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Good sleep</FeatureTitle>
+          <FeatureTitle>Connectivity</FeatureTitle>
           <FeatureText>
-            Sleep plays a vital role in good health and well-being throughout your life.
+            The keyboard will be fully support MIDI 2.0 and MPE over USB, DIN or mini jack and Bluetooth Low Energy. There will also be gate and CV outputs to interface with modular gear.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Levels of purification</FeatureTitle>
+          <FeatureTitle>Sequencing</FeatureTitle>
           <FeatureText>
-            Innovative use of carbon filter, HEPA-filter and UV-sterilisation.
+            Flow will have an onboard sequencer. Even if you stick to your normal 12-tone system, it will function as a flexible and powerful performance tool.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>

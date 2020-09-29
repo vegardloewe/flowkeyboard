@@ -28,7 +28,7 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Multi-purpose keyboard</Subtitle>
+            <Subtitle>Multi-scale keyboard</Subtitle>
             <h1>
               Unlock all
               <br />

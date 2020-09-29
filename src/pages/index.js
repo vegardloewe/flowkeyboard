@@ -9,14 +9,16 @@ import Features from "../components/sections/features"
 import Footer from "../components/sections/footer"
 import GetStarted from "../components/sections/getstarted"
 import Concept from "../components/sections/concept"
+import Concept2 from "../components/sections/concept-2"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Clean Air Units - Breath air, not contamination" image="https://ibb.co/d5NH0sw"/>
+    <SEO title="FlowKeyboard - Unlock all creative dimensions" image="https://ibb.co/d5NH0sw"/>
     <Navigation />
     <Header />
     <Features />
     <Concept />
+    <Concept2 />
     <GetStarted />
     <Footer />
   </Layout>

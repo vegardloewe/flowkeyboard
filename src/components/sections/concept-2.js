@@ -5,10 +5,10 @@ import { graphql, useStaticQuery, Link } from "gatsby"
 
 import { Section, Container } from "../global"
 
-const Concept = () => {
+const Concept2 = () => {
     const data = useStaticQuery(graphql`
       query {
-        file(sourceInstanceName: { eq: "product" }, name: { eq: "Produkt-1" }) {
+        file(sourceInstanceName: { eq: "product" }, name: { eq: "Produkt-2" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -19,10 +19,8 @@ const Concept = () => {
     `)
 
     return (
-  <Section id="concept">
+  <Section>
     <StyledContainer>
-      <Subtitle>Concept</Subtitle>
-      <SectionTitle>Makes any tone scale available</SectionTitle>
         <ImageWrapper>
           <StyledImageConcept fluid={data.file.childImageSharp.fluid} />
           <br />
@@ -32,7 +30,7 @@ const Concept = () => {
 )
 }
 
-export default Concept
+export default Concept2
 
 const StyledContainer = styled(Container)``
 

@@ -9,7 +9,7 @@ import "./form.css"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
+      file(sourceInstanceName: { eq: "product" }, name: { eq: "Piano" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -28,20 +28,22 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Clean Air Unit</Subtitle>
+            <Subtitle>Multi-scale keyboard</Subtitle>
             <h1>
-              Breath air,
+              Unlock all
               <br />
-              not contamination
+              creative dimensions
             </h1>
             <h2>
-              We're building a protective zone with clean air supply. Show your interest!
+              Unlock an universe of micro tonality with a single keyboard. Show your interest!
             </h2>
             <h2>Thank you for your interest!</h2>
-            <FormSubtitle class="subtitle">
+            <div class="subtitle">
+            <FormSubtitle>
               Your email will NOT be used for marketing purposes.{" "}
               <FormSubtitleLink to="/"></FormSubtitleLink>
             </FormSubtitle>
+            </div>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -56,7 +58,7 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
+  background-color: #F5F6F7;
   padding: 160px 0 80px 0;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
@@ -76,7 +78,7 @@ const HeaderTextGroup = styled.div`
       margin-top: 300px;
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   > div {
@@ -125,7 +127,7 @@ const HeaderForm = styled.form`
 `
 
 const FormSubtitle = styled.span`
-  ${props => props.theme.font_size.xxsmall}
+   ${props => props.theme.font_size.xxsmall};
 `
 
 const FormSubtitleLink = styled(Link)`
@@ -207,7 +209,7 @@ const StyledImage = styled(Img)`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 300px;
-    margin-top: -700px;
+    margin-top: -810px;
     transform: scale(0.8);
   }
 `

@@ -4,10 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Keyboard`,
-    description: `An innovative product that creates a protective zone without any particles ...`,
-    author: `Clean Air Units`,
-    image: `https://ibb.co/d5NH0sw`,
+    title: `FlowKeyboard`,
+    description: `An innovative keyboard that makes any tone scale available ...`,
+    author: `FlowKeyboard`,
+    image: `https://i.ibb.co/wRwRd4t/SEO-image.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
