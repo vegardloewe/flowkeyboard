@@ -16,7 +16,7 @@ const Footer = () => (
 
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Clean Air Units</Logo>
+      <Logo>FlowKeyboard</Logo>
     </BrandContainer>
   </FooterWrapper>
 )

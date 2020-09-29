@@ -9,7 +9,7 @@ import "./form.css"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "Keyboard" }) {
+      file(sourceInstanceName: { eq: "product" }, name: { eq: "Piano" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
